@@ -20,8 +20,8 @@ total_price += bikes[0].tail_pack_price
 total_price += bikes[1].weekly_rate
 total_price += bikes[1].pannier_price
 total_price += bikes[2].weekly_rate
-total_price += bikes[2].luggage.price
+total_price += bikes[2].luggage_price
 total_price += bikes[3].weekly_rate
-total_price += bikes[3].luggage.price
+total_price += bikes[3].luggage_price
 
 puts "Total price: #{total_price}"
